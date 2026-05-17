@@ -87,17 +87,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/i.mahirkhan__",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/share/1EGi6CMNmk/",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://x.com/MahirKh89380388",
   },
 ] as const;
 
@@ -134,7 +134,6 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
 
-
   {
     skill_name: "Next.js 14",
     image: "next.png",
@@ -162,35 +161,31 @@ export const BACKEND_SKILL = [
     width: 40,
     height: 40,
   },
-
-
 ] as const;
 
-export const FULLSTACK_SKILL = [
-] as const;
+export const FULLSTACK_SKILL = [] as const;
 
-export const OTHER_SKILL = [
-
-] as const;
+export const OTHER_SKILL = [] as const;
 
 export const PROJECTS = [
   {
-    title: "🛒 Tekisky Mart – The Future of eCommerce",
-    
+    title: "⌚ Jay's Watch Store – E-Commerce Solution for Watch Enthusiasts",
+
     image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    link: "https://jayswatchstore.com/",
   },
   {
-    title: "Tekisky – The Future of Tech",
+    title: "👗 Pallavi Swadi ERP – Complete Garment & Production Solution",
 
     image: "/projects/project-2.webp",
-    link: "https://tekisky.com/",
+    link: "https://gocodex.com/psd/",
   },
   {
-    title: "Speedline Auto Parts – The Future of Auto Parts",
-   
+    title:
+      "🌾 Agriil Inc – Agriculture Equipment Marketplace & Rental Solution",
+
     image: "/projects/project-3.webp",
-    link: "https://speedlineautoparts.netlify.app/",
+    link: "https://agriilinc.com/",
   },
 ] as const;
 
@@ -198,34 +193,30 @@ export const FOOTER_DATA = [
   {
     title: "Community",
     data: [
-
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/mktech9",
       },
-
     ],
   },
   {
     title: "Social Media",
     data: [
-
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        link: "https://www.linkedin.com/in/mahir-khan-0a19761a0/",
       },
     ],
   },
   {
     title: "About",
     data: [
-   
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:arrahmanofficial9@gmail.com",
+        link: "mailto:mahir44khan@gmail.com",
       },
     ],
   },
@@ -245,5 +236,3 @@ export const NAV_LINKS = [
     link: "#projects",
   },
 ] as const;
-
-

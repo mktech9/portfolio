@@ -1,14 +1,6 @@
 import { SkillDataProvider } from "@/components/sub/skill-data-provider";
 import { SkillText } from "@/components/sub/skill-text";
 
-import {
-  BACKEND_SKILL,
-  FRONTEND_SKILL,
-  FULLSTACK_SKILL,
-  OTHER_SKILL,
-  SKILL_DATA,
-} from "@/constants";
-
 export const Skills = () => {
   return (
     <section
@@ -18,66 +10,124 @@ export const Skills = () => {
     >
       <SkillText />
 
+      {/* Frontend Skills */}
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {SKILL_DATA.map((skill, i) => (
-          <SkillDataProvider
-            key={skill.skill_name}
-            src={skill.image}
-            name={skill.skill_name}
-            width={skill.width}
-            height={skill.height}
-            index={i}
-          />
-        ))}
+        <SkillDataProvider
+          src="html.png"
+          name="HTML"
+          width={80}
+          height={80}
+          index={0}
+        />
+
+        <SkillDataProvider
+          src="css.png"
+          name="CSS"
+          width={80}
+          height={80}
+          index={1}
+        />
+
+        <SkillDataProvider
+          src="js.png"
+          name="JavaScript"
+          width={80}
+          height={80}
+          index={2}
+        />
+
+        <SkillDataProvider
+          src="react.png"
+          name="React"
+          width={80}
+          height={80}
+          index={3}
+        />
+
+        <SkillDataProvider
+          src="tailwind.png"
+          name="Tailwind"
+          width={80}
+          height={80}
+          index={4}
+        />
+
+        <SkillDataProvider
+          src="bootstrap.png"
+          name="Bootstrap"
+          width={80}
+          height={80}
+          index={5}
+        />
       </div>
 
+      {/* Backend Skills */}
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {FRONTEND_SKILL.map((skill, i) => (
-          <SkillDataProvider
-            key={skill.skill_name}
-            src={skill.image}
-            name={skill.skill_name}
-            width={skill.width}
-            height={skill.height}
-            index={i}
-          />
-        ))}
+        <SkillDataProvider
+          src="php.png"
+          name="PHP"
+          width={80}
+          height={80}
+          index={6}
+        />
+
+        <SkillDataProvider
+          src="laravel.png"
+          name="Laravel"
+          width={80}
+          height={80}
+          index={7}
+        />
+
+        <SkillDataProvider
+          src="mysql.png"
+          name="MySQL"
+          width={80}
+          height={80}
+          index={8}
+        />
+
+        <SkillDataProvider
+          src="next.png"
+          name="Next.js"
+          width={80}
+          height={80}
+          index={9}
+        />
+
+        <SkillDataProvider
+          src="node.png"
+          name="Node.js"
+          width={80}
+          height={80}
+          index={10}
+        />
       </div>
+
+      {/* Other Skills */}
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {BACKEND_SKILL.map((skill, i) => (
-          <SkillDataProvider
-            key={skill.skill_name}
-            src={skill.image}
-            name={skill.skill_name}
-            width={skill.width}
-            height={skill.height}
-            index={i}
-          />
-        ))}
-      </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {FULLSTACK_SKILL.map((skill, i) => (
-          <SkillDataProvider
-            key={skill.skill_name}
-            src={skill.image}
-            name={skill.skill_name}
-            width={skill.width}
-            height={skill.height}
-            index={i}
-          />
-        ))}
-      </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {OTHER_SKILL.map((skill, i) => (
-          <SkillDataProvider
-            key={skill.skill_name}
-            src={skill.image}
-            name={skill.skill_name}
-            width={skill.width}
-            height={skill.height}
-            index={i}
-          />
-        ))}
+        <SkillDataProvider
+          src="git.png"
+          name="Git"
+          width={80}
+          height={80}
+          index={11}
+        />
+
+        <SkillDataProvider
+          src="postman.png"
+          name="Postman"
+          width={80}
+          height={80}
+          index={13}
+        />
+        <SkillDataProvider
+          src="github.png"
+          name="GitHub"
+          width={80}
+          height={80}
+          index={12}
+        />
       </div>
 
       <div className="w-full h-full absolute">

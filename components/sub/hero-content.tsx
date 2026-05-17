@@ -25,25 +25,24 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] h-4 w-4 md:h-5 md:w-5" />
           <h1 className="text-[12px] md:text-[13px] text-gray-200 font-semibold">
-            Fullstack Developer
+            Software Developer
           </h1>
         </motion.div>
 
         {/* Hero Heading */}
         <motion.h1
           variants={slideInFromLeft(0.5)}
-          className="text-3xl sm:text-4xl md:text-6xl font-bold text-white max-w-[600px] leading-tight"
+          className="text-3xl sm:text-4xl md:text-6xl font-bold text-white max-w-[700px] leading-tight"
         >
-          Transforming{" "}
+          Building{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Ideas
+            Stunning Web Experiences
           </span>{" "}
-          into Seamless User{" "}
+          with Creative Design &{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Experiences
+            Clean Code
           </span>
         </motion.h1>
-
         {/* Description */}
         <motion.p
           variants={slideInFromLeft(0.8)}
@@ -108,109 +107,96 @@ export const HeroContent = () => {
               strokeDasharray="6 6"
             />
 
-            {/* Laravel */}
+            {/* javascript */}
             <g>
-              <circle cx="250" cy="40" r="35" fill="#FF2D20" />
-              <text
-                x="250"
-                y="48"
-                textAnchor="middle"
-                fill="white"
-                fontSize="14"
-                fontWeight="600"
-              >
-                Laravel
-              </text>
+              <circle cx="250" cy="40" r="35" fill="#808080" opacity="0.4" />
+
+              <image
+                href="/skills/laravel.png"
+                x="228"
+                y="18"
+                width="44"
+                height="44"
+              />
             </g>
 
             {/* PHP */}
+            {/* PHP */}
             <g>
-              <circle cx="420" cy="140" r="35" fill="#777BB3" />
-              <text
-                x="420"
-                y="148"
-                textAnchor="middle"
-                fill="white"
-                fontSize="14"
-                fontWeight="600"
-              >
-                PHP
-              </text>
+              <circle cx="420" cy="140" r="35" fill="#808080" opacity="0.4" />
+
+              <image
+                href="/skills/php.png"
+                x="398"
+                y="118"
+                width="44"
+                height="44"
+              />
             </g>
 
             {/* AJAX */}
+            {/* React */}
             <g>
-              <circle cx="450" cy="320" r="35" fill="#06B6D4" />
-              <text
-                x="450"
-                y="328"
-                textAnchor="middle"
-                fill="white"
-                fontSize="14"
-                fontWeight="600"
-              >
-                AJAX
-              </text>
-            </g>
+              <circle cx="450" cy="320" r="35" fill="#808080" opacity="0.4" />
 
+              <image
+                href="/skills/react.png"
+                x="428"
+                y="298"
+                width="44"
+                height="44"
+              />
+            </g>
             {/* HTML5 */}
             <g>
-              <circle cx="250" cy="460" r="35" fill="#E34F26" />
-              <text
-                x="250"
-                y="468"
-                textAnchor="middle"
-                fill="white"
-                fontSize="14"
-                fontWeight="600"
-              >
-                HTML5
-              </text>
+              <circle cx="250" cy="460" r="35" fill="#808080" opacity="0.4" />
+
+              <image
+                href="/skills/html.png"
+                x="230"
+                y="440"
+                width="40"
+                height="40"
+              />
             </g>
 
             {/* CSS3 */}
             <g>
-              <circle cx="70" cy="320" r="35" fill="#1572B6" />
-              <text
-                x="70"
-                y="328"
-                textAnchor="middle"
-                fill="white"
-                fontSize="14"
-                fontWeight="600"
-              >
-                CSS3
-              </text>
+              <circle cx="70" cy="320" r="35" fill="#808080" opacity="0.4" />
+
+              <image
+                href="/skills/css.png"
+                x="50"
+                y="300"
+                width="40"
+                height="40"
+              />
             </g>
 
             {/* Tailwind */}
             <g>
-              <circle cx="90" cy="140" r="35" fill="#38BDF8" />
-              <text
-                x="90"
-                y="148"
-                textAnchor="middle"
-                fill="white"
-                fontSize="12"
-                fontWeight="600"
-              >
-                Tailwind
-              </text>
+              <circle cx="90" cy="140" r="35" fill="#808080" opacity="0.4" />
+
+              <image
+                href="/skills/tailwind.png"
+                x="70"
+                y="120"
+                width="40"
+                height="40"
+              />
             </g>
 
             {/* jQuery */}
             <g>
-              <circle cx="150" cy="70" r="28" fill="#0769AD" />
-              <text
-                x="150"
-                y="76"
-                textAnchor="middle"
-                fill="white"
-                fontSize="12"
-                fontWeight="600"
-              >
-                jQuery
-              </text>
+              <circle cx="150" cy="70" r="28" fill="#808080" opacity="0.4" />
+
+              <image
+                href="/skills/js.png"
+                x="134"
+                y="54"
+                width="32"
+                height="32"
+              />
             </g>
 
             {/* Center Circle */}
